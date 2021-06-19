@@ -1,0 +1,190 @@
+@keyframes anime1{
+    from {color: var(--back);}
+    to {color:var(--secondary);}
+}
+@keyframes anime2{
+    from{background: var(--dark);}
+    to{background: var(--pure);}
+}
+:root{
+    --primary:green;
+    --secondary:rgb(247, 165, 156);
+    --ternary:peachpuff;
+    --pure:white;
+    --dark:black;
+    --shadow:rgb(6, 221, 35);
+    --back:blueviolet;
+}
+.anime-h1{
+    animation-name: anime2;
+    animation-duration: 4s;
+    animation-iteration-count:  infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.anime-body{
+    animation-name: anime1;
+    animation-duration: 8s;
+    animation-iteration-count:  infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+body{
+    background: var(--dark);
+    height: 150%;
+}
+.container{
+    background: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-between; */
+    transition: all 2s ease-in;
+}
+.container .content-right{
+    display: inline;
+    font-size: xx-large;
+    margin: 2.5rem;
+    transition: all 1s ease-out;
+    color: var(--back);
+}
+.container .img{
+    /* padding: 0.5rem; */
+    margin: 0.5rem;
+    transition: all 0.5s ease-in;
+    
+}
+.container-donate{
+    border: 2px solid var(--back);
+    border-radius: 3rem;
+    border-width: 0.5rem;
+}
+
+.container-donates .p1{
+    /* background: var(--secondary); */
+    /* height: 320px; */
+    color:3px solid var(--secondary);
+    margin: auto;
+    text-align: center;
+    margin-top: 3.5rem;
+    padding: 3.5rem;
+    transition: all 4s ease-out;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding: 1.3rem;
+    font-weight: bolder;
+    background-color: paleturquoise;
+    border: 2px solid var(--back);
+    border-radius: 2.3rem;
+
+}
+.container-donate .p2{
+    color: var(--secondary);
+    transition: all 7s ease-in;
+    z-index: -1;
+}
+
+.container-donate .p4{
+    /* background: var(--secondary); */
+    color: var(--secondary);
+    transition: all 7s ease-in
+}
+.container-donate .p5{
+    /* background: var(--secondary); */
+    color: var(--secondary);
+    transition: all 7s ease-out;
+}
+
+
+.container-donate{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding: 1.3rem;
+    background-color: paleturquoise;
+    /* margin-bottom: -1.3srem; */
+}
+.btn
+{
+    display: flex;
+    margin-top: 4rem;
+    justify-content:center ;
+    background-color:var(--back);
+}
+.btn .btn1,.btn2,.btn3{
+    padding: 0.3rem;
+}
+
+
+.image img{
+    background-size: cover;
+  height:180px;
+  width:200px;
+  border: 1px solid red;
+}
+a {
+    font-size: 3rem;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--back);
+    border: 3px solid var(--secondary);
+    margin-right: 3rem;
+    padding-right: 0.5rem;
+    
+}
+h1{
+    color: var(--back);
+    font-size:5rem;
+    transition: all 5s ease-in;
+    text-align: center;
+    text-decoration: 3px underline;
+    /* margin-bottom:-2rem ; */
+    /* margin-top: -0.5rem; */
+}
+.btn a{
+    font-weight: 2rem;
+    text-decoration: none;
+    color: var(--secondary);
+}
+.btn a:hover{
+    color: var(--back);
+    background-color: var(--secondary);
+}
+.body-donate{
+    background-image: url(https://source.unsplash.com/1600x900/?poor,money);
+}
+.p-form p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding: 1.3rem;
+    color: var(--back);
+    text-align: center;
+    margin: auto;
+}
+.money{
+    background-image: url(https://source.unsplash.com/1600x900/?money);
+
+}
+.about-img{
+    background-image: url(https://source.unsplash.com/1600x900/?flower);
+}
+.p-form{
+    border: 2px solid var(--back);
+    border-radius: 3rem;
+    border-width: 0.5rem;
+    margin: auto;
+    text-align: center;
+    width: 28rem;
+    margin-top: 2.8rem;
+    background-color: paleturquoise;
+
+}
+.flex{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    /* border: 5px solid var(--secondary); */
+    /* margin-top: 1.5rem; */
+    margin-top:5rem;
+
+}
